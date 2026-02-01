@@ -4,10 +4,11 @@ Monorepo para um eCommerce multi-tenant, com front-end e back-end desacoplados, 
 
 ## 🧱 Estrutura do repositório
 
+```text
 repo/
 ├── apps/
-│ ├── web/ # Front-end (Next.js)
-│ └── api/ # Back-end (NestJS)
-├── packages/ # Código compartilhado (tipos, interfaces, etc.)
+│   ├── web/        # Front-end (Next.js)
+│   └── api/        # Back-end (NestJS)
+├── packages/       # Código compartilhado (tipos, interfaces, etc.)
 ├── package.json
 └── README.md
